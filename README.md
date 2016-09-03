@@ -10,6 +10,7 @@ Logger for the PIP Inverter series ( USB version )
 
 - sends data to [PVOutput](http://www.pvoutput.org).
 
+ PVOutput is a free service for sharing and comparing PV output data.
 
 ## Install
  * copy file **"solpiplog.rules"** to your **"/etc/udev/rules.d/"** directory. That way you dont have to excecute it as root
