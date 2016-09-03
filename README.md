@@ -21,5 +21,32 @@
  * optional: create an account on [PVOutput](http://www.pvoutput.org).
  * configure **SolPipLog** with your Emoncms API-Key
   * optional configure **SolPipLog** with your PVOutput SystemID and API-Key.
-   
+  
+## Values sent to Emoncms
 
+Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-17
+
+* 1  = AC_IN_V
+* 2  = AC_IN_HZ
+* 3  = AC_OUT_V
+* 4  = AC_OUT_HZ
+* 5  = AC_OUT_VA
+* 6  = AC_OUT_W
+* 7  = AC_OUT_LOAD_PERCENT
+* 8  = BUS_V
+* 9  = BATT_V
+* 10 = BATT_CHRG
+* 11 = BATT_CAPACITY_PERCENT
+* 12 = HEATSINK_TEMP
+* 13 = PV_I_BATT
+* 14 = PV_V
+* 15 = BATT_V_SCC
+* 16 = BATT_DISCHRG_I
+* 17 = PV Charging Power
+
+## Values sent to PVOutput
+Following values are sent to *PVOutput*
+
+* AC_OUT_V
+* AC_OUT_W
+* PV Charging Power
