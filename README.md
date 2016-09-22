@@ -4,6 +4,7 @@
 
 
 - working on 32bit UBUNTU / MATE.
+- Raspberry Pi2 version ( first release version 1.2.4 )
 - no Windows version yet
 - sends data to [Emoncms](https://emoncms.org) 
 
@@ -14,10 +15,13 @@
  PVOutput is a free service for sharing and comparing PV output data.
 
 ## Install
- * copy file **"solpiplog.rules"** to your **"/etc/udev/rules.d/"** directory. That way you dont have to excecute it as root
+ * copy file **"solpiplog.rules"** to your **"/etc/udev/rules.d"** directory. That way you dont have to excecute it as root
+ * from your terminal window, inside the folder where the file is **sudo cp solpiplog.rules /etc/udev/rules.d** 
+ * unplug usb cable and replug
  * make **solpiplog** executable with
    * **sudo chmod +x solpiplog** or 
    * change it with graphical interface inside of Ubuntu / Mate. Right click on file - properties - permissions tab - tick execute allow excecuting file as program
+   * problably you dont even need to do it, if i dont forget to make it executable :) 
  * create an account on [Emoncms](https://emoncms.org) or install **Emoncms** on your own server. 
  * optional: create an account on [PVOutput](http://www.pvoutput.org).
  * configure **SolPipLog** with your Emoncms API-Key
@@ -51,3 +55,24 @@ Following values are sent to *PVOutput*
 * AC_OUT_V
 * AC_OUT_W
 * PV Charging Power
+
+## Version
+
+1.2.4 - * bug timer overflow
+	* changes on workflow for slow machines
+	* rewritten parser
+	* cosmetic changes
+	* raspberry 2 version adaptation
+	* a lot of bugs removed
+1.2.3.alpha - BennyHH version
+1.2.2 - * bug timeout problems on slow machines increased to 5 seconds
+	* log screen . showing all errors.
+           
+1.2.1 - removed change by watt ( debug version )
+            - updated logo
+            - bug* Connect button without focus after clicking
+              manual Disconnect
+
+1.2 - fist public release
+
+
