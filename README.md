@@ -49,19 +49,18 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 15 = BATT_V_SCC
 * 16 = BATT_DISCHRG_I
 * 17 = PV Charging Power
-
 * 18 = Line Mode ( 0 or 1 )  Link Led Widget for visualization
 * 19 = Battery Mode ( 0 or 1 ) Link Led Widget for visualization
 * 20 = Fault Mode ( 0 or 1 )  Link Led Widget for visualization
 
-* 30 = Year         for displaying lastest update 
+* 30 = Year for displaying lastest update
 * 31 = Month
 * 32 = Day
 * 33 = Hour
 * 34 = Minute
 * 35 = Second
 
-New since v 1.3.0 BMV Battery Monitor displayed as Node 20 with following Keys:
+**New since v 1.3.0 BMV Battery Monitor displayed as Node 20 with following Keys:**
 
 * 1 = Battery voltage mV
 * 2 = Battery current mA
