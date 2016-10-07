@@ -1,10 +1,11 @@
 # SolPipLog ![solpiplog](solpiplog.gif)
 
-**Logger for the PIP Inverter series ( USB version )** 
+**Logger for the PIP Inverter series ( USB version ) + BMV Battery Monitor** 
 
-
+- latest version 1.3.0 10/2016
 - working on 32bit UBUNTU / MATE.
-- Raspberry Pi2 version ( first release version 1.2.4 )
+- working on Raspberry Pi2 version
+- logs data from BMV battery monitor to [Emoncms](https://emoncms.org) 
 - no Windows version yet
 - sends data to [Emoncms](https://emoncms.org) 
 
@@ -29,7 +30,7 @@
   
 ## Values sent to Emoncms
 
-Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-17
+Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-20 and 30-35
 
 * 1  = AC_IN_V
 * 2  = AC_IN_HZ
@@ -49,6 +50,30 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 16 = BATT_DISCHRG_I
 * 17 = PV Charging Power
 
+* 18 = Line Mode ( 0 or 1 )  Link Led Widget for visualization
+* 19 = Battery Mode ( 0 or 1 ) Link Led Widget for visualization
+* 20 = Fault Mode ( 0 or 1 )  Link Led Widget for visualization
+
+* 30 = Year         for displaying lastest update 
+* 31 = Month
+* 32 = Day
+* 33 = Hour
+* 34 = Minute
+* 35 = Second
+
+New since v 1.3.0 BMV Battery Monitor displayed as Node 20 with following Keys:
+
+* 1 = Battery voltage mV
+* 2 = Battery current mA
+* 3 = Instantaneous Power W
+* 4 = Consumed amp Hours mAh
+* 5 = State-of-Charge
+* 6 = Time-To-Go in minutes
+* 8 = Alarm status (ON/OFF) one for ON and zero for OFF
+* 25 = Relay status (ON/OFF)
+
+
+
 ## Values sent to PVOutput
 Following values are sent to *PVOutput*
 
@@ -58,20 +83,44 @@ Following values are sent to *PVOutput*
 
 ## Version
 
-1.2.4 - * bug timer overflow
+1.3.0 -* 10/2016 NEW  BMV Battery Monitor log parameter send to EmonCMS on Node 20
+	* Key 1 :  Battery voltage mV
+	* Key 2 : Battery current mA
+	* Key 3 : Instantaneous Power W
+	* Key 4 : Consumed Amp Hours mAh
+	* Key 5 : State-of-Charge
+	* Key 6 : Time-to-go in minutes
+	* Key 8 : Alarm status ON/OFF
+	* Key 25:  Relay status ON/OFF
+
+1.2.6 -* BennyHH v3 internal test
+	* new parameter 30 : Year
+	* new parameter 31 : Month
+	* new parameter 32 : Day
+	* new parameter 33 : Hour
+	* new parameter 34 : Minute
+	* new parameter 35 : Seconds
+1.2.5 - * BennyHH v2 internal test
+	* Added parameter 18 Line Mode
+	* Added parameter 19 Battery Mode
+	* Added parameter 20 Fault Mode
+	* add detection if internet connection available
+
+1.2.4 -* bug timer overflow
 	* changes on workflow for slow machines
 	* rewritten parser
 	* cosmetic changes
 	* raspberry 2 version adaptation
 	* a lot of bugs removed
+
 1.2.3.alpha - BennyHH version
+
 1.2.2 - * bug timeout problems on slow machines increased to 5 seconds
 	* log screen . showing all errors.
            
 1.2.1 - removed change by watt ( debug version )
-            - updated logo
-            - bug* Connect button without focus after clicking
-              manual Disconnect
+	- updated logo
+	- bug* Connect button without focus after clicking manual Disconnect
 
 1.2 - fist public release
 
