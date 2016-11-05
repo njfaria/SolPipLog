@@ -1,12 +1,12 @@
 # SolPipLog ![solpiplog](solpiplog.gif)
 
-**Logger for the PIP Inverter series ( USB version ) + BMV Battery Monitor** 
+**Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
 
-- latest version 1.3.0 10/2016
+- latest version 1.4.1 11/2016 
 - working on 32bit UBUNTU / MATE.
 - working on Raspberry Pi2 version
 - logs data from BMV battery monitor to [Emoncms](https://emoncms.org) 
-- no Windows version yet
+- does not work on Windows.
 - sends data to [Emoncms](https://emoncms.org) 
 
  Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the [OpenEnergyMonitor project](http://openenergymonitor.org).
@@ -82,6 +82,13 @@ Following values are sent to *PVOutput*
 
 ## Version
 
+1.4.1 * 11/2016 RS232 public release
+	change on SOC activated.
+	Changes inverter to UTI or SBU based on SOC
+
+1.4.0 * Vollkorn release RS232 support for Inverter
+	bugfixes, layout changed.
+1.3.1 -* BennyHH Soc version internal release 
 1.3.0 -* 10/2016 NEW  BMV Battery Monitor log parameter send to EmonCMS on Node 20
 	* Key 1 :  Battery voltage mV
 	* Key 2 : Battery current mA
