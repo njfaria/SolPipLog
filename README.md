@@ -1,10 +1,11 @@
 # SolPipLog ![solpiplog](solpiplog.gif)
 
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
+* Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, and other branded Oems
 
-- latest version 1.4.1 11/2016 
+- latest version 1.4.8 version Winterschlaf 03/2017 
 - working on 32bit UBUNTU / MATE.
-- working on Raspberry Pi2 version
+- working on Raspberry Pi2/Pi3 version
 - logs data from BMV battery monitor to [Emoncms](https://emoncms.org) 
 - does not work on Windows.
 - sends data to [Emoncms](https://emoncms.org) 
@@ -79,6 +80,17 @@ Following values are sent to *PVOutput*
 
 ## Version
 
+
+follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
+raspberry image awailable.
+
+* 1.4.8 * 03/2017 new  change BULK and FLOAT
+* 1.4.7 * Vollkorn changed how to Switch to UTI/SOL.
+* 1.4.6 * BennyHH BMV logging without PIP online
+* 1.4.5 * agenturrene v4 change charger priority
+* 1.4.4 * agenturrene v3 switching SOC error
+* 1.4.3 * agenturrene v2 faster bmv detection
+* 1.4.2 * agenturrene v1 two MPPT version
 * 1.4.1 * 11/2016 RS232 public release
 	change on SOC activated.
 	Changes inverter to UTI or SBU based on SOC
