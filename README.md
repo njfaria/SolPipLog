@@ -2,8 +2,9 @@
 
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, and other branded Oems
+* Victron Battery Monitor BMV700 and BMV702
 
-- latest version 1.4.8 version Winterschlaf 03/2017 
+- latest version 1.5.0 version Primavera 05/2017 
 - working on 32bit UBUNTU / MATE.
 - working on Raspberry Pi2/Pi3 version
 - logs data from BMV battery monitor to [Emoncms](https://emoncms.org) 
@@ -28,7 +29,8 @@
  * optional: create an account on [PVOutput](http://www.pvoutput.org).
  * configure **SolPipLog** with your Emoncms API-Key
  * optional configure **SolPipLog** with your PVOutput SystemID and API-Key.
-  
+ * choose autoload config and start and press on Save ( if you restart SolPipLog it loads the config file and runs. )
+   
 ## Values sent to Emoncms
 
 Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-20 and 30-35
@@ -61,7 +63,30 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 34 = Minute
 * 35 = Second
 
-**New since v 1.3.0 BMV Battery Monitor displayed as Node 20 with following Keys:**
+**New since v 1.4.9 support for Inverter with two/three MPPT displayed as Node 31 with following Keys:**
+
+* 1 =  PV2 current A
+* 2 =  PV2 volt V
+* 3 =  batt volt scc2 V
+* 4 =  PV power2 W
+* 5 =  device status
+* 6 =  AC charge current A
+* 7 =  AC charge power W
+* 8 =  PV3 current A
+* 9 =  PV3 voltage V
+* 10 = batt volt scc3 V
+* 11 = PV power3 W
+* 12 = PV total W
+
+
+* 30 = Year for displaying lastest update
+* 31 = Month
+* 32 = Day
+* 33 = Hour
+* 34 = Minute
+* 35 = Second
+
+**BMV Battery Monitor displayed as Node 20 with following Keys:**
 * 1 = Battery voltage mV
 * 2 = Battery current mA
 * 3 = Instantaneous Power W
@@ -69,8 +94,9 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 5 = State-of-Charge
 * 6 = Time-To-Go in minutes
 * 8 = Alarm status (ON/OFF) one for ON and zero for OFF
+* 10 = Auxiliary (starter) voltage  ## only with BMV-702
 * 25 = Relay status (ON/OFF)
-
+ 
 ## Values sent to PVOutput
 Following values are sent to *PVOutput*
 
@@ -78,12 +104,24 @@ Following values are sent to *PVOutput*
 * AC_OUT_W
 * PV Charging Power
 
+
 ## Version
 
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
-raspberry image awailable.
+raspberry image available.
+image based on RASPBIAN JESSIE WITH PIXEL, SAMBA installed ( folder Downloads visible on local network ), RealVNC installed,
+username and password are default ones from Jessie image.
 
+* 1.5.0 * Primavera version
+	* support for Inverter with 2 MPPT
+	* logs aditional parameter for BMV702
+	* Sends UDP datagramm to a Server / for example to a Loxone Smart Home server
+	* autoload config and Start possible.
+	* bug crc errors solved
+	* solved timeout on 2MPPT versions solved
+* 1.4.9a* rik_man UDP version
+* 1.4.9 * tealc_hr internal forum release
 * 1.4.8 * 03/2017 new  change BULK and FLOAT
 * 1.4.7 * Vollkorn changed how to Switch to UTI/SOL.
 * 1.4.6 * BennyHH BMV logging without PIP online
