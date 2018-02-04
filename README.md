@@ -4,9 +4,11 @@
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, and other branded Oems
 * Victron Battery Monitor BMV700 and BMV702
 
-- latest version 1.5.0 version Primavera 05/2017 
+* want to support me ? [support](https:paypal.me/solpiplog)
+
+- latest version 2.0.0 version Phoenix 02/2017 
 - working on 32bit UBUNTU / MATE.
-- working on Raspberry Pi2/Pi3 version
+- working on Raspberry Pi2/Pi3 version. link for [Raspberry Image](https://my.pcloud.com/publink/show?code=XZ0yMz7ZvssSH2MOuYzA1giJh5JM7f8O1zB7)
 - logs data from BMV battery monitor to [Emoncms](https://emoncms.org) 
 - does not work on Windows.
 - sends data to [Emoncms](https://emoncms.org) 
@@ -18,7 +20,8 @@
  PVOutput is a free service for sharing and comparing PV output data.
 
 ## Install
- * copy file **"solpiplog.rules"** to your **"/etc/udev/rules.d"** directory. That way you dont have to excecute it as root
+ * For **RASPBERRY** users. Copy folder **"sol"** to yout **"/home/pi"** directory. Execute "setup.sh" which is inside "sol" folder
+ * For **UBUNTU USERS** copy file **"solpiplog.rules"** to your **"/etc/udev/rules.d"** directory. That way you dont have to excecute it as root
  * from your terminal window, inside the folder where the file is **sudo cp solpiplog.rules /etc/udev/rules.d** 
  * unplug usb cable and replug
  * make **solpiplog** executable with
@@ -63,6 +66,8 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 34 = Minute
 * 35 = Second
 
+* 
+
 **New since v 1.4.9 support for Inverter with two/three MPPT displayed as Node 31 with following Keys:**
 
 * 1 =  PV2 current A
@@ -85,6 +90,44 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 33 = Hour
 * 34 = Minute
 * 35 = Second
+* 36 = Days since online
+* 37 = Hours since Online	
+* 38 = device status	
+* 39 = device status2
+
+* Inv1 01 Serial number
+* Inv1 02 mode	
+* Inv1 09 AC Out Power
+* Inv1 11 Battery Voltage
+* Inv1 12 Battery Charge A
+* Inv1 17 TOTAL AC OUT W	
+* Inv1 25 PV Input A	
+* Inv1 26 Battery discharge A	
+* Inv2 01 Serial number
+* Inv2 02 mode	
+* Inv2 09 AC Out Power
+* Inv2 11 Battery Voltage
+* Inv2 12 Battery Charge A
+* Inv2 17 TOTAL AC OUT W	
+* Inv2 25 PV Input A	
+* Inv2 26 Battery discharge A	
+* Inv3 01 Serial number
+* Inv3 02 mode	
+* Inv3 09 AC Out Power
+* Inv3 11 Battery Voltage
+* Inv3 12 Battery Charge A
+* Inv3 17 TOTAL AC OUT W	
+* Inv3 25 PV Input A	
+* Inv3 26 Battery discharge A	
+* Inv4 01 Serial number
+* Inv4 02 mode	
+* Inv4 09 AC Out Power
+* Inv4 11 Battery Voltage
+* Inv4 12 Battery Charge A
+* Inv4 17 TOTAL AC OUT W	
+* Inv4 25 PV Input A	
+* Inv4 26 Battery discharge A	
+
 
 **BMV Battery Monitor displayed as Node 20 with following Keys:**
 * 1 = Battery voltage mV
@@ -95,6 +138,8 @@ Following values are sent to *Emoncms* and displayed as Node 30 with Key from 1-
 * 6 = Time-To-Go in minutes
 * 8 = Alarm status (ON/OFF) one for ON and zero for OFF
 * 10 = Auxiliary (starter) voltage  ## only with BMV-702
+* 11 = mid point voltage in mV
+* 12 = mid point deviation  
 * 25 = Relay status (ON/OFF)
  
 ## Values sent to PVOutput
@@ -110,9 +155,13 @@ Following values are sent to *PVOutput*
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
 raspberry image available.
-image based on RASPBIAN JESSIE WITH PIXEL, SAMBA installed ( folder Downloads visible on local network ), RealVNC installed,
-username and password are default ones from Jessie image.
-
+image based on RASPBIAN STRETCH, SAMBA installed ( folder solpiplog visible on local network ), RealVNC installed,
+username and password are default ones from STRETCH image.
+* 2.0.0 * Phoenix version
+	* support for parallel inverter reading 4 at once
+	* ability to change node
+	* layout changed. cosmetic alterations.
+	* 			
 * 1.5.0 * Primavera version
 	* support for Inverter with 2 MPPT
 	* logs aditional parameter for BMV702
