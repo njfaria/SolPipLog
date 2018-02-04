@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=solpiplog
+Comment=Logger for Axpert Inverter
+Exec=/home/pi/sol/solpiplogstart.sh
+Icon=/home/pi/sol/solpiplog.gif
+Terminal=false
+Type=Application
+Categories=Accessories
+Path=/home/pi/sol
+StartupNotify=true
+Name[en_GB]=solpiplog
+Name[pt_PT]=solpiplog
