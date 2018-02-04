@@ -4,7 +4,7 @@
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, and other branded Oems
 * Victron Battery Monitor BMV700 and BMV702
 
-* want to support me ? [support](https:paypal.me/solpiplog)
+* want to support me ? [support](https://paypal.me/solpiplog)
 
 - latest version 2.0.0 version Phoenix 02/2017 
 - working on 32bit UBUNTU / MATE.
