@@ -6,6 +6,7 @@
 
 * want to support me ? [support](https://paypal.me/solpiplog)
 
+- update at work.....
 - latest version 2.0.0 version Phoenix 02/2017 
 - working on 32bit UBUNTU / MATE.
 - working on Raspberry Pi2/Pi3 version. link for [Raspberry Image](https://my.pcloud.com/publink/show?code=XZ0yMz7ZvssSH2MOuYzA1giJh5JM7f8O1zB7)
