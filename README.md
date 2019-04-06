@@ -30,11 +30,11 @@
  * optional configure **SolPipLog** with your PVOutput SystemID and API-Key.
  * choose autoload config and start and press on Save ( if you restart SolPipLog it loads the config file and runs. )
    
-## [Values sent to Emoncms](https://github.com/njfaria/SolPipLog/docs/emoncmsvalues.md)
+## [Values sent to Emoncms](https://github.com/njfaria/SolPipLog/blob/master/docs/emoncmsvalues.md)
 
-## [Values sent over MQTT](https://github.com/njfaria/SolPipLog/docs/mqttvalues.md)
+## [Values sent over MQTT](https://github.com/njfaria/SolPipLog/blob/master/docs/mqttvalues.md)
 
-## [Version](https://github.com/njfaria/SolPipLog/docs/version.md)
+## [Version](https://github.com/njfaria/SolPipLog/blob/master/docs/version.md)
 * latest version 2.2.0
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
