@@ -6,11 +6,13 @@
 
 * want to support me ? [support](https://paypal.me/solpiplog)
 
-- 
-- latest version 2.2.0 version Phoenix 04/2019 
-- working on Raspberry Pi2/Pi3 version. link for [Raspberry Image](https://my.pcloud.com/publink/show?code=XZ0yMz7ZvssSH2MOuYzA1giJh5JM7f8O1zB7)
-- logs data from BMV battery monitor to [Emoncms](https://emoncms.org) 
-- sends data to [Emoncms](https://emoncms.org) 
+- latest version 2.2.0 version AnoNovo 04/2019 
+- working on Raspberry Pi2/Pi3 version.
+- sends data over MQTT
+- change by time to grid or to batterie/solar
+- change on SOC to grid or to batterie/solar
+- logs data from BMV battery monitor to remote or local [Emoncms](https://emoncms.org) server
+- logs data from Inverter to remote or local [Emoncms](https://emoncms.org) server
 
  Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the [OpenEnergyMonitor project](http://openenergymonitor.org).
 
@@ -34,7 +36,7 @@
 
 ## [Values sent over MQTT](/docs/mqttvalues.md)
 
-## [Version](https://github.com/njfaria/SolPipLog/blob/master/docs/version.md)
+## [Version](/docs/version.md)
 * latest version 2.2.0
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
