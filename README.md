@@ -41,7 +41,8 @@
 * latest version 2.2.0
 
 ## Examples 
-- [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/solar/)
+- [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/)
+- [graphs and widgets](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/local)
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
 raspberry image available.
