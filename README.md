@@ -40,6 +40,9 @@
 ## [Release](https://github.com/njfaria/SolPipLog/releases)
 * latest version 2.2.0
 
+## Examples 
+- [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/solar/)
+
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
 raspberry image available.
 image based on RASPBIAN STRETCH, RealVNC installed,
