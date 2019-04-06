@@ -37,7 +37,7 @@
 ## [Values sent over MQTT](/docs/mqttvalues.md)
 
 ## [Version](/docs/version.md)
-## [Release](releases) 
+## [Release](/releases/latest) 
 * latest version 2.2.0
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
