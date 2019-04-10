@@ -6,7 +6,6 @@
 
 * want to support me ? [support](https://paypal.me/solpiplog)
 
-- latest version 2.2.0 version AnoNovo 04/2019 
 - working on Raspberry Pi2/Pi3 version.
 - sends data over MQTT
 - change by time to grid or to batterie/solar
@@ -37,8 +36,9 @@
 ## [Values sent over MQTT](/docs/mqttvalues.md)
 
 ## [Version](/docs/version.md)
-## [Release](https://github.com/njfaria/SolPipLog/releases)
-* latest version 2.2.1
+
+## [Release]
+* [latest version 2.2.1](https://github.com/njfaria/SolPipLog/releases)
 
 ## Examples 
 - [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/)
