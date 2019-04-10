@@ -38,7 +38,7 @@
 
 ## [Version](/docs/version.md)
 ## [Release](https://github.com/njfaria/SolPipLog/releases)
-* latest version 2.2.0
+* latest version 2.2.1
 
 ## Examples 
 - [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/)

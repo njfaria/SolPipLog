@@ -1,4 +1,7 @@
 
+* 2.2.1 * prerelease 
+	* bugfix parallel inverter not logging
+	* added key P15 PV Voltage for parallel inverter
 * 2.2.0 * 2019 mqtt, Switch by time, log BMV only
 * 2.1.1 * bug mppt2 version not logging
         * bug mppt2 version logging with node and serialnumber
