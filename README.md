@@ -37,7 +37,7 @@
 
 ## [Version](/docs/version.md)
 
-## [Release]
+## Release
 * [latest version 2.2.1](https://github.com/njfaria/SolPipLog/releases)
 
 ## Examples 
