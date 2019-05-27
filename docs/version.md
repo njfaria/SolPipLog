@@ -1,4 +1,9 @@
 
+* 2.2.2 05/2019
+	* NEW BMV 712 Smart support
+	* NEW MQTT Port possible to change
+	* bugfix MPPT2 not logging
+	* bugfix Hybrid not logging
 * 2.2.1 * prerelease 
 	* bugfix parallel inverter not logging
 	* added key P15 PV Voltage for parallel inverter
@@ -35,11 +40,11 @@
 * 1.4.3 * agenturrene v2 faster bmv detection
 * 1.4.2 * agenturrene v1 two MPPT version
 * 1.4.1 * 11/2016 RS232 public release
-	change on SOC activated.
-	Changes inverter to UTI or SBU based on SOC
+	* change on SOC activated.
+	* Changes inverter to UTI or SBU based on SOC
 
 * 1.4.0 * Vollkorn release RS232 support for Inverter
-	bugfixes, layout changed.
+	* bugfixes, layout changed.
 * 1.3.1 * BennyHH Soc version internal release
 * 1.3.0	* 10/2016 NEW  BMV Battery Monitor log parameter send to EmonCMS on Node 20
   	* Key 1 :  Battery voltage mV
@@ -64,7 +69,7 @@
 	* Added parameter 20 Fault Mode
 	* add detection if internet connection available
 
-* 1.2.4 -* bug timer overflow
+* 1.2.4 * bug timer overflow
 	* changes on workflow for slow machines
 	* rewritten parser
 	* cosmetic changes
