@@ -1,4 +1,9 @@
-
+* 2.5.5.20190726
+	* bugfix not sending data to emoncms.org
+	* new change charge priority by timewindow
+	* added source priority change SOL
+	* fixed typos
+	* working on raspberry zero and A+ 
 * 2.2.2 05/2019
 	* NEW BMV 712 Smart support
 	* NEW MQTT Port possible to change
