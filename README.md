@@ -9,6 +9,7 @@
 - working on Raspberry Pi2/Pi3 version.
 - sends data over MQTT
 - change by time to grid or to batterie/solar
+- change by time charge order
 - change on SOC to grid or to batterie/solar
 - logs data from BMV battery monitor to remote or local [Emoncms](https://emoncms.org) server
 - logs data from Inverter to remote or local [Emoncms](https://emoncms.org) server
@@ -38,7 +39,7 @@
 ## [Version](/docs/version.md)
 
 ## Release
-* [latest version 2.2.2](https://github.com/njfaria/SolPipLog/releases)
+* [latest version](https://github.com/njfaria/SolPipLog/releases)
 
 ## Examples 
 - [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/)
