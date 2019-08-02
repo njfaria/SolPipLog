@@ -1,3 +1,5 @@
+* 2.5.5.20190802
+	* added new values to send over MQTT
 * 2.5.5.20190726
 	* bugfix not sending data to emoncms.org
 	* new change charge priority by timewindow

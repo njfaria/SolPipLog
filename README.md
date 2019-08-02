@@ -47,7 +47,7 @@
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
 raspberry image available.
-image based on RASPBIAN STRETCH, RealVNC installed,
+image based on RASPBIAN STRETCH, Teamviewer, RealVNC installed,
 username:pi
 password:solpiplog
  
