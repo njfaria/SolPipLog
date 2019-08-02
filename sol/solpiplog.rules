@@ -1,2 +1,14 @@
 SUBSYSTEM=="usb", ATTRS{idVendor}=="0665", MODE="0666"
+KERNEL=="hidraw*",ATTRS{busnum}=="1", ATTRS{idVendor}=="0665", MODE="0666"
+KERNEL=="ttyUSB*", KERNELS=="1-1.1", SYMLINK+="ttyPORT1"
+KERNEL=="ttyUSB*", KERNELS=="1-1.2", SYMLINK+="ttyPORT2"
+KERNEL=="ttyUSB*", KERNELS=="1-1.3", SYMLINK+="ttyPORT3"
+KERNEL=="ttyUSB*", KERNELS=="1-1.4", SYMLINK+="ttyPORT4"
+KERNEL=="ttyUSB*", KERNELS=="1-1.5", SYMLINK+="ttyPORT5"
+KERNEL=="hidraw*", KERNELS=="1-1.1", SYMLINK+="ttyHID1"
+KERNEL=="hidraw*", KERNELS=="1-1.2", SYMLINK+="ttyHID2"
+KERNEL=="hidraw*", KERNELS=="1-1.3", SYMLINK+="ttyHID3"
+KERNEL=="hidraw*", KERNELS=="1-1.4", SYMLINK+="ttyHID4"
+KERNEL=="hidraw*", KERNELS=="1-1.5", SYMLINK+="ttyHID5"
+
 

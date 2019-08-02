@@ -1,4 +1,15 @@
-* 2.5.5.20190726
+* 2.3.0.20191013
+	* NEW send status of ECO and Bypass for KING inverter at key 25 and 26
+	* bugfix logging node with rs232 interface with KING inverter was not working.
+* 2.3.0 Gandalf release
+	* NEW sending MQTT with user and password possible
+	* NEW logging multiple USB inverters possible ( copy new solpiplog.rules to udev folder )
+	* on raspberry at ( /etc/udev/rules.d )		
+* 2.3.0.20191005
+	* bugfix inverter with multiple MPPT not logging the aditional MPPT
+* 2.2.5.20190802
+	* added new values to send over MQTT
+* 2.2.5.20190726
 	* bugfix not sending data to emoncms.org
 	* new change charge priority by timewindow
 	* added source priority change SOL

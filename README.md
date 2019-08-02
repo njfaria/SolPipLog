@@ -1,7 +1,7 @@
 # SolPipLog ![solpiplog](solpiplog.gif)
 
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
-* Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, and other branded Oems
+* Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, KING and other branded Oems
 * Victron Battery Monitor BMV700 and BMV702 and BMV 712 Smart
 
 * want to support me ? [support](https://paypal.me/solpiplog)
@@ -13,6 +13,7 @@
 - change on SOC to grid or to batterie/solar
 - logs data from BMV battery monitor to remote or local [Emoncms](https://emoncms.org) server
 - logs data from Inverter to remote or local [Emoncms](https://emoncms.org) server
+- logs MULTIPLE USB Inverter ( v. 2.3.0 and up )
 
  Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the [OpenEnergyMonitor project](http://openenergymonitor.org).
 
@@ -32,7 +33,11 @@
  * optional configure **SolPipLog** with your PVOutput SystemID and API-Key.
  * choose autoload config and start and press on Save ( if you restart SolPipLog it loads the config file and runs. )
    
-## [Values sent to Emoncms](/docs/emoncmsvalues.md)
+## [Values sent to Emoncms when logging with node](/docs/emoncmsvaluesnode.md)
+
+## [Values sent to Emoncms when logging with pip serialnumber](/docs/emoncmsvaluesserial.md)
+
+## [Values sent to Emoncms when logging with BMV](/docs/emoncmsbmv.md)
 
 ## [Values sent over MQTT](/docs/mqttvalues.md)
 
@@ -47,7 +52,13 @@
 
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
 raspberry image available.
-image based on RASPBIAN STRETCH, RealVNC installed,
+image based on RASPBIAN STRETCH, Teamviewer, RealVNC installed,
 username:pi
 password:solpiplog
+
+## Appearance
+![solpiplog](solpiplogmain.png)
+![solpiplog](solpiplogabout.png)
+
+
  
