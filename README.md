@@ -57,7 +57,7 @@ username:pi
 password:solpiplog
 
 ## Appearance
-![solpiplog](solpiplogmain.png)
+![solpiplog](solpiplogconfig.png)
 ![solpiplog](solpiplogabout.png)
 
 
