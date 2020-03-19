@@ -60,8 +60,8 @@ password:solpiplog
 follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
 
 ## Appearance
-![solpiplog](solpiplogmain.png)
-![solpiplog](solpiplogabout.png)
+![solpiplog](solpiplog1.png)
+![solpiplog](solpiplog2.png)
 
 
  
