@@ -1,3 +1,16 @@
+* 2.4.0.20200313
+	* new check both hybrid inverter and send data over MQTT
+	* new change status to eco aut online on KING inverter with "solpiplog/pip/status/set" and payload eco,aut,onl
+	* new pylon support ( implementing. disabled, testing in curse )
+	* new chage charge status with "solpiplog/pip/charge/set" and payload 0,1,2,3
+	* reading of current status with "solpiplog/pip/status" and charge with "solpiplog/pip/charge"
+	* bugfix MQTT connection not starting at boot.
+	* bugfixes
+* 2.3.1.20200118
+	* bugfix save MQTT user and password on reboot
+	* bugfix send MQTT if only bmv connected
+	* able to change MQTT prefix. Usefull for logging more than one Inverter
+	* NEW change inverter status and charge status  with MQTT
 * 2.3.0.20191013
 	* NEW send status of ECO and Bypass for KING inverter at key 25 and 26
 	* bugfix logging node with rs232 interface with KING inverter was not working.

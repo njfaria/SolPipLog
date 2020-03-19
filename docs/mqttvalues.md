@@ -1,6 +1,5 @@
 ## Values sent over MQTT
 
-
 - solpiplog/pip/acin
 - solpiplog/pip/acout
 - solpiplog/pip/acoutva
@@ -17,8 +16,6 @@
 - solpiplog/pip/pvchargew
 - solpiplog/pip/status
 
-
-
 - solpiplog/bmv/soc
 - solpiplog/bmv/volt
 - solpiplog/bmv/ampere
@@ -29,4 +26,9 @@
 - solpiplog/bmv/h2
 - solpiplog/bmv/h17
 - solpiplog/bmv/h18
-                                                                             
+
+## Values changable over MQTT  
+- solpiplog/pip/status/set with payload uti, sol, sbu
+	for example: solpiplog/pip/status/set uti
+	to change to grid
+- solpiplog/pip/status/set with payload 0, 1, 2, 3 for charger settings                                                                           

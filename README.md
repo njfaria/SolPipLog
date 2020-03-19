@@ -6,7 +6,7 @@
 
 * want to support me ? [support](https://paypal.me/solpiplog)
 
-- working on Raspberry Pi2/Pi3 version.
+- working on Raspberry Pi2/Pi3/Pi4 version.
 - sends data over MQTT
 - change by time to grid or to batterie/solar
 - change by time charge order
@@ -50,14 +50,17 @@
 - [solar](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/)
 - [graphs and widgets](http://solpiplog.ddnss.eu:8080/emoncms/solpiplog/local)
 
-follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
-raspberry image available.
-image based on RASPBIAN STRETCH, Teamviewer, RealVNC installed,
+## Image
+- [image](https://ln2.sync.com/dl/bb7dfb190/d8tqu845-2hjw7brj-gtr5pd5r-bntskrb2)
+image based on RASPBIAN STRETCH, RealVNC installed, Emoncms installed, MQTT installed
+burn with etcher.io or similar software.
 username:pi
 password:solpiplog
 
+follow on http://www.photovoltaikforum.com/datenlogger-f5/usb-datenlogger-fuer-pip-serie-solpiplog-t114101.html
+
 ## Appearance
-![solpiplog](solpiplogconfig.png)
+![solpiplog](solpiplogmain.png)
 ![solpiplog](solpiplogabout.png)
 
 
