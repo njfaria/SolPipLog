@@ -1,3 +1,18 @@
+* 2.5.0.20200501
+	* NEW #26 pylon support
+	* pylon values send to Emoncms through MQTT. 
+	* rs232 parser rewritten
+	* #40 MQTT try to connect every 10 seconds if internet/wifi down
+	* hybrid P18 daily values sent through MQTT
+	* new status values pip/masterstatus and pip/status2
+	* more BMV values sent 
+	* rearangement of interface
+	* config file not backwords compatible
+	* logging to emoncms with node and name. you are free to choose name at which emoncms is displaying. Not tied to the serialnumber
+	* for backwards compatiblity you may insert the inverter serial number in the name fiels at the "config->logging" separator
+	* for values sent over MQTT see README	
+	* Hybrid P17 P18 rewritten
+
 * 2.4.0.20200313
 	* new check both hybrid inverter and send data over MQTT
 	* new change status to eco aut online on KING inverter with "solpiplog/pip/status/set" and payload eco,aut,onl
