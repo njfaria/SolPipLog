@@ -22,7 +22,7 @@
 - sends data to [PVOutput](http://www.pvoutput.org).
 
  PVOutput is a free service for sharing and comparing PV output data.
-https://github.com/njfaria/Solpiplog/releases
+
 ## Install
  * For **RASPBERRY** users. Copy folder **"sol"** to yout **"/home/pi"** directory. Execute "setup.sh" which is inside "sol" folder
  * make **solpiplog** executable with
