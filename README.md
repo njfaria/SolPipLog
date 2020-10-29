@@ -1,5 +1,5 @@
 # SolPipLog ![solpiplog](solpiplog.gif)
-
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/njfaria/solpiplog">
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, KING and other branded Oems
 * Victron Battery Monitor BMV700 and BMV702 and BMV 712 Smart
@@ -27,7 +27,7 @@
  * For **RASPBERRY** users. Copy folder **"sol"** to yout **"/home/pi"** directory. Execute "setup.sh" which is inside "sol" folder
  * make **solpiplog** executable with
    * **sudo chmod +x solpiplog** or 
-   * change it with graphical interface inside of Ubuntu / Mate. Right click on file - properties - permissions tab - tick execute allow excecuting file as program
+   * change it with graphical interface inside of Raspberry. Right click on file - properties - permissions tab - tick execute allow excecuting file as program
    * problably you dont even need to do it, if i dont forget to make it executable :) 
  * create an account on [Emoncms](https://emoncms.org) or install **Emoncms** on your own server. 
  * optional: create an account on [PVOutput](http://www.pvoutput.org).
@@ -56,7 +56,7 @@
 
 ## Image
 - [image](https://ln2.sync.com/dl/bb7dfb190/d8tqu845-2hjw7brj-gtr5pd5r-bntskrb2)
-image based on RASPBIAN STRETCH, RealVNC installed, Emoncms installed, MQTT installed
+image based on RASPBIAN Buster, RealVNC installed, Emoncms installed, MQTT installed
 burn with etcher.io or similar software.
 username:pi
 password:solpiplog

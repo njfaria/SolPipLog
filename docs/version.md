@@ -1,3 +1,14 @@
+* 2.5.3.20200604
+	* fix PVOUTPUT error 503 if no connection
+	* fix MQTT Timeout
+	* fix Hybrid detection 
+	* fix QPIGS Description typo
+	* fix MQTT Bulk and Float where wrong
+	* new BMV 600S support Experimental
+	* added Pylontech battery temperature values MQTT
+	* added Pylontech ammount of Packs MQTT
+	* added change charge values with MQTT 50A and 60A
+
 * 2.5.0.20200501
 	* NEW #26 pylon support
 	* pylon values send to Emoncms through MQTT. 
@@ -7,7 +18,7 @@
 	* new status values pip/masterstatus and pip/status2
 	* more BMV values sent 
 	* rearangement of interface
-	* config file not backwords compatible
+	* config file not backwards compatible
 	* logging to emoncms with node and name. you are free to choose name at which emoncms is displaying. Not tied to the serialnumber
 	* for backwards compatiblity you may insert the inverter serial number in the name fiels at the "config->logging" separator
 	* for values sent over MQTT see README	
