@@ -2,7 +2,7 @@
 
 [<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/njfaria/solpiplog">](https://github.com/njfaria/SolPipLog/releases)
 [<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/njfaria/solpiplog/total">](https://github.com/njfaria/SolPipLog/releases/latest)
-=======
+[<img alt="donate" src="https://img.shields.io/badge/donate-Paypal-green">](https://www.paypal.com/donate?hosted_button_id=ZDTGKU48JP678&source=url)
 
 
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
