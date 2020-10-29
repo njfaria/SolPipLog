@@ -1,5 +1,7 @@
 # SolPipLog ![solpiplog](solpiplog.gif)
-<img alt="GitHub release (latest by date)" src="https://github.com/njfaria/SolPipLog/releases">
+
+[<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/njfaria/solpiplog">](https://github.com/njfaria/SolPipLog/releases)
+[<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/njfaria/solpiplog/total">](https://github.com/njfaria/SolPipLog/releases/latest)
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, KING and other branded Oems
 * Victron Battery Monitor BMV700 and BMV702 and BMV 712 Smart
