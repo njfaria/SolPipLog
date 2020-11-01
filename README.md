@@ -12,7 +12,7 @@
 * [integratation with Victron Battery Monitor](https://github.com/njfaria/bmvlog)
 * [integration with Daly BMS](https://github.com/njfaria/dalylog) 
 * [integration with Batrium BMS](https://github.com/njfaria/batriumlog)
-* [integration with Pylontech] (https://github.com/njfaria/pylonlog)
+* [integration with Pylontech](https://github.com/njfaria/pylonlog)
 * want to support me ? [<img alt="donate" src="https://img.shields.io/badge/donate-Paypal-green">](https://www.paypal.com/donate?hosted_button_id=ZDTGKU48JP678&source=url)
 
 - working on Raspberry Pi2/Pi3/Pi4 version.
