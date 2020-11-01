@@ -52,7 +52,7 @@
 ## [Version](/docs/version.md)
 
 ## Release
-* [<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/njfaria/solpiplog/total">](https://github.com/njfaria/SolPipLog/releases/latest)
+[<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/njfaria/solpiplog">](https://github.com/njfaria/SolPipLog/releases)
 ## Examples 
 - [solar](http://solpiplog.eu)
 
