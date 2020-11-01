@@ -9,20 +9,19 @@
 
 **Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, KING and other branded Oems
-* Victron Battery Monitor BMV700 and BMV702 and BMV 712 Smart
-* pylon valuess logging
-
-* want to support me ? [support](https://paypal.me/solpiplog)
+* [integratation with Victron Battery Monitor](https://github.com/njfaria/bmvlog)
+* [integration with Daly BMS](https://github.com/njfaria/dalylog) 
+* [integration with Batrium BMS](https://github.com/njfaria/batriumlog)
+* [integration with Pylontech] (https://github.com/njfaria/pylonlog)
+* want to support me ? [<img alt="donate" src="https://img.shields.io/badge/donate-Paypal-green">](https://www.paypal.com/donate?hosted_button_id=ZDTGKU48JP678&source=url)
 
 - working on Raspberry Pi2/Pi3/Pi4 version.
 - sends data over MQTT
 - change by time to grid or to batterie/solar
 - change by time charge order
 - change on SOC to grid or to batterie/solar
-- logs data from BMV battery monitor to remote or local [Emoncms](https://emoncms.org) server
 - logs data from Inverter to remote or local [Emoncms](https://emoncms.org) server
 - logs MULTIPLE USB Inverter ( v. 2.3.0 and up )
-- logs pylon batteries.
 
  Emoncms is an open-source web application for processing, logging and visualising energy, temperature and other environmental data and is part of the [OpenEnergyMonitor project](http://openenergymonitor.org).
 
@@ -45,8 +44,6 @@
 ## [Values sent to Emoncms when logging with node](/docs/emoncmsvaluesnode.md)
 
 ## [Values sent to Emoncms when logging with pip serialnumber/name](/docs/emoncmsvaluesserial.md)
-
-## [Values sent to Emoncms when logging with BMV](/docs/emoncmsbmv.md)
 
 ## [Values sent over MQTT for Inverter and BMV ](/docs/mqttvalues.md)
 
