@@ -1,4 +1,4 @@
-# SolPipLog ![solpiplog](solpiplog.gif)
+﻿# SolPipLog ![solpiplog](solpiplog.gif)
 
 [<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/njfaria/solpiplog">](https://github.com/njfaria/SolPipLog/releases)
 [<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/njfaria/solpiplog/total">](https://github.com/njfaria/SolPipLog/releases/latest)
@@ -7,7 +7,7 @@
 
 
 
-**Logger for the PIP Inverter series ( USB + RS232 version) + BMV Battery Monitor** 
+**Logger for the PIP Inverter series ( USB + RS232 version)** 
 * Voltronic Axpert, Mppsolar PIP, Voltacon, Effekta, KING and other branded Oems
 * [integratation with Victron Battery Monitor](https://github.com/njfaria/bmvlog)
 * [integration with Daly BMS](https://github.com/njfaria/dalylog) 
@@ -45,9 +45,7 @@
 
 ## [Values sent to Emoncms when logging with pip serialnumber/name](/docs/emoncmsvaluesserial.md)
 
-## [Values sent over MQTT for Inverter and BMV ](/docs/mqttvalues.md)
-
-## [Values sent over MQTT for pylon](/docs/mqttpylonvalues.md)
+## [Values sent over MQTT for Inverter](/docs/mqttvalues.md)
 
 ## [Version](/docs/version.md)
 

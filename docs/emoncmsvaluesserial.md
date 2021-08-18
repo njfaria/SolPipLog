@@ -1,6 +1,6 @@
 ## Values sent to Emoncms when logging with serialnumber
 
-Following values are sent to *Emoncms* and displayed at the inputs as node with your PIP serialnumber, with following keys
+Following values are sent to *Emoncms* and displayed at the inputs as node with your PIP serialnumber/name, with following keys
 
 * 01 AC_IN_V
 * 02 AC_IN_HZ
@@ -48,7 +48,7 @@ Following values are sent to *Emoncms* and displayed at the inputs as node with 
 * 65 CALC
                   
 
-**If you got Inverter with two/three MPPT following inputs are also send:**
+**If you got Inverter with two/three MPPT, following inputs are also send:**
 
 * 41 PV2 A
 * 42 PV2 V
