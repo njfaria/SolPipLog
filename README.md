@@ -51,7 +51,8 @@
 
 ## Release
 [<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/njfaria/solpiplog">](https://github.com/njfaria/SolPipLog/releases)
-## Examples 
+## Example
+ * Example of Emoncms Dashboard 
 ![solar](example.png)
 
 
